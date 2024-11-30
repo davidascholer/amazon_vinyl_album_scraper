@@ -1,7 +1,6 @@
 import json
 import os
 import re
-import time
 from bs4 import BeautifulSoup
 from util import save_image_to_file_system, strip_non_alphanumeric
 from selenium import webdriver

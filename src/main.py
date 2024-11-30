@@ -37,7 +37,8 @@ if __name__ == '__main__':
   album_json = object_to_json(album_object)
   command = f"echo '{album_json},\n' >> ./output/data.json"
   subprocess.run(command, capture_output=True, shell=True)
-  # pprint.pp(f"config_json:\n{album_json}")
+  pprint.pp(f"config_json:\n{album_json}")
+
 
 # https://www.amazon.com/s?i=popular&bbn=14772275011&rh=n%3A5174%2Cn%3A14772275011%2Cn%3A31%2Cp_85%3A2470955011%2Cp_76%3A1249188011&dc&ds=v1%3AQ1At6W79tQeJg0PUivuOFrM%2B%2F%2FBfUoCZmExF%2FhpPiBU&qid=1732960380&rnid=14772275011&ref=sr_nr_n_1&page=2
 # https://www.amazon.com/s?i=popular&bbn=14772275011&rh=n%3A5174%2Cn%3A14772275011%2Cn%3A31%2Cp_85%3A2470955011%2Cp_76%3A1249188011&dc&page=1&qid=1732960392&rnid=14772275011&ref=sr_pg_1
